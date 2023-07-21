@@ -1,0 +1,82 @@
+
+body{
+    margin: 0;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.511);
+    height: 80px;
+}
+nav{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 22px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 21px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+}
+
+nav ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.695);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+
+.contactform{
+    width: 30%;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.555);
+    position: relative;
+    left: 35%;
+    top: 80px;
+    bottom: 60px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px;
+}
+.contactform h2{
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+    font-family: 'Lilita One', cursive;
+}
+
+.contactform .inputbox{
+    width: 100%;
+    margin-top: 20px;
+}
+.contactform .inputbox input,
+.contactform .inputbox textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    resize: none;
+}
+
+
+
+footer{
+    background-color:  rgba(128, 128, 128, 0.511);
+    color: black;
+    margin-top: 140px;
+}

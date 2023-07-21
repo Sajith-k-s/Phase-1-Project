@@ -1,0 +1,125 @@
+
+body{
+    margin: 0;
+    background-image: url(https://static.storyweaver.org.in/illustrations/58827/search/14.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.511);
+    height: 80px;
+}
+nav{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 22px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 21px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+}
+
+nav ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.695);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+
+#td{
+    margin-bottom: 100px;
+    font-weight: bolder;
+    font-family: 'Lilita One', cursive;
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.781);
+    margin-top: 80px;
+    position: relative;
+    left: 580px;
+}
+
+
+
+
+.bnm{
+    height: 270px;
+    width: 100%;
+    background-color:  rgba(128, 128, 128, 0.511);
+    position: absolute;
+    top: 800px;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 4px 5px 6px;
+}
+.sss1{
+    
+    font-weight: bold;
+    color: black;
+    font-size: 28px;
+    padding-left: 600px;
+    padding-top: 52px;
+    font-family: 'Secular One', sans-serif;
+}
+.sss2{
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+    padding-left: 550px;
+    padding-top: 10px; 
+    font-family: 'Josefin Sans', sans-serif;
+}
+.input-container{
+    width: 280px;
+   position: absolute;
+   left: 550px;
+   top: 150px;
+}
+
+#Email{
+    padding: 0.8rem;
+    width: 100%;
+    height: 100%;
+    border: 4px solid black;
+    background: white;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+    transition: all .3s;
+    color: black;
+    font-weight: bold;
+}
+#but{
+    position: absolute;
+    left: 290px;
+    top: 5px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: grey;
+    font-weight: bold;
+    font-family: 'Hammersmith One', sans-serif;
+}
+#but:hover{
+    color: black;
+    background-color: white;
+    box-shadow: 6px 8px 8px;
+}
+footer{
+    background-color:  rgba(128, 128, 128, 0.511);
+    color: black;
+    margin-top: 168px;
+}
+
+.carousel-item{
+     margin-bottom: 140px;
+}
