@@ -49,14 +49,27 @@ nav ul li a:hover{
 }
 
 
+.pp{
+    margin-bottom: 80px;
+    padding-left: 120px;
+    padding-right: 120px;
+    position: relative;
+    bottom: 50px;
+    text-align: justify;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
 
+
+}
 
 .bnm{
     height: 270px;
     width: 100%;
     background-color:  rgba(128, 128, 128, 0.511);
     position: absolute;
-    top: 800px;
+    top: 1060px;
     border: 2px solid white;
     border-radius: 5px;
     box-shadow: 4px 5px 6px;
@@ -94,7 +107,6 @@ nav ul li a:hover{
     border-radius: 5px;
     font-size: 18px;
     outline: none;
-    transition: all .3s;
     color: black;
     font-weight: bold;
 }
@@ -122,4 +134,9 @@ footer{
 
 .carousel-item{
      margin-bottom: 140px;
+}
+
+.carousel-inner{
+    position: relative;
+    bottom: 40px;
 }
