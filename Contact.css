@@ -12,15 +12,25 @@ body{
     background-color: rgba(128, 128, 128, 0.511);
     height: 80px;
 }
-nav{
-    padding-left: 10%;
-    padding-right: 10%;
-}
-nav ul li{
+
+.cccc{
+    position: relative;
+    right: 100px;
+} 
+
+.header nav ul {
     list-style: none;
-    display: inline-block;
-    padding: 10px 22px;
+    margin: 0;
+    padding: 0;
 }
+
+.header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 5px 15px ;
+}
+
+
 nav ul li a{
     color: black;
     text-decoration: none;
@@ -29,6 +39,7 @@ nav ul li a{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 500;
 }
+
 
 nav ul li a:hover{
     background-color: rgba(255, 255, 255, 0.695);
@@ -79,4 +90,29 @@ footer{
     background-color:  rgba(128, 128, 128, 0.511);
     color: black;
     margin-top: 140px;
+}
+
+@media (max-width: 768px) {
+    .header nav ul li {
+        display: inline;
+    }
+    nav ul li a{
+        font-size: 14px;
+    }
+    nav ul li a:hover{
+        visibility: hidden;
+    }
+    .cccc{
+        position: relative;
+        left: 10px;
+        width: 80px;
+    }
+    .contactform{
+        width: 70%;
+        position: relative;
+        left: 18%;
+    }
+    .contactform h2{
+        font-size: 24px;
+    }
 }
