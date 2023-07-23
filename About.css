@@ -95,7 +95,10 @@ p{
     line-height: 35px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px)  {
+    body{
+        width: 100%;
+    }
     .header nav ul li {
         display: inline;
     }
